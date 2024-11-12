@@ -1,0 +1,35 @@
+#chat_history_container {
+    max-height: 70vh;
+    overflow-y: auto;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f7f7f8;
+}
+
+#input_row {
+    position: fixed;
+    bottom: 20px;
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#user_input {
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+#mic_icon, #upload_icon {
+    font-size: 1.5em;
+    margin: 0 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
